@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Henny+Penny&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Wellfleet&family=Wendy+One&display=swap");
+
+body {
+  font-family: Montserrat;
+  background-color: #cadbf8;
+  background: repeating-linear-gradient(
+    45deg,
+    #ffd034,
+    #06327d,
+    #2b70e4,
+    #cadbf8
+  );
+  padding: 2rem;
+  display: block;
+}
+/* add as many gradient repeating colors as you wish (add this one again to the end so it sits at the TOP RIGHT like a yellow sun blur). Currently looks like underwater near sandy-bottom*/
+
+h1 {
+  text-align: center;
+  color: #ffd034;
+  font-size: 4rem;
+  text-shadow: 2px 2px 0 #ddd333, 7px 7px 4px #000, 4px 4px 0 #222;
+}
+
+nav {
+  /*   background-color: #333; */
+  padding: 0.5rem;
+  margin: 1rem;
+  line-height: 2;
+  /*   text-align: left; */
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  color: red;
+  font-size: 2rem;
+}
+
+.btn {
+  background-color: #966e5e;
+  border: 3px solid #209d5c;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  border-radius: 23px;
+  text-decoration: none;
+  color: #ffd034;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 0 #ddd333, 7px 7px 4px #000, 4px 4px 0 #222;
+}
+
+.btn:hover {
+  color: red;
+  font-size: 3rem;
+  border: 12px dotted red;
+  /*   padding: 4rem; */
+  /*   margin: 3rem; */
+}
+
+img {
+  background-color: #2b70e4;
+  padding: 0rem;
+  border-radius: 45px;
+  background: transparent;
+}
